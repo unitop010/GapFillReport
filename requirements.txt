@@ -1,5 +1,6 @@
-streamlit
-matplotlib
-requests
-sqlalchemy
-numpy
+streamlit==1.41.1
+matplotlib==3.10.0
+requests-file==2.1.0
+SQLAlchemy==2.0.37
+numpy==2.1.2
+fastapi
