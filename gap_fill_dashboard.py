@@ -18,7 +18,7 @@ def get_symbols_from_db(db_uri):
 
 # Function to fetch data from the API
 def fetch_gap_fill_data(symbol):
-    api_url = f"http://127.0.0.1:8000/gap_fill/?symbol={symbol}"
+    api_url = f"https://skilled-tahr-coherent.ngrok-free.app/gap_fill/?symbol={symbol}"
     response = requests.get(api_url)
     if response.status_code == 200:
         return response.json()
