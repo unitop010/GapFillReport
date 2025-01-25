@@ -4,3 +4,4 @@ requests-file==2.1.0
 SQLAlchemy==2.0.37
 numpy==2.1.2
 fastapi
+uvicorn
